@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://wavewardens.net/sitemap.xml
+Sitemap: https://justanormalguy999.github.io/wavewardens/sitemap.xml
