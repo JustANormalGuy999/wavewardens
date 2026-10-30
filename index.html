@@ -81,14 +81,14 @@
   .btn.play { background: var(--orange); color: #fff; font-size: 1.5rem; padding: 1rem 2.6rem; }
   .btn.guide { background: #fff; color: var(--ink); }
   .btn:active { transform: translateY(4px); box-shadow: 0 2px 0 rgba(0,0,0,.25); }
-  .hero-img { display: block; width: min(960px, 92vw); margin: -2.2rem auto 0; border-radius: 18px; box-shadow: 0 12px 30px rgba(0,0,0,.25); }
+  .hero-img { display: block; width: min(960px, 92vw); height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: -2.2rem auto 0; border-radius: 18px; box-shadow: 0 12px 30px rgba(0,0,0,.25); }
   main { max-width: 980px; margin: 0 auto; padding: 1.5rem 1.2rem 3rem; }
   .badges { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; margin: 1.6rem 0 .6rem; padding: 0; list-style: none; }
   .badges li { background: #e3f4fb; border: 2px solid #b9e2f3; border-radius: 999px; padding: .35rem .9rem; font-weight: 700; font-size: .95rem; }
   h2 { color: var(--orange); margin-top: 2.4rem; }
   .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; }
   .step { background: #fff; border-radius: 16px; padding: 1rem; box-shadow: 0 3px 12px rgba(11,53,80,.08); }
-  .step img { width: 100%; border-radius: 10px; display: block; margin-bottom: .6rem; }
+  .step img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; display: block; margin-bottom: .6rem; }
   .step h3 { margin: .2rem 0; color: var(--teal); }
   table { border-collapse: collapse; width: 100%; background: #fff; border-radius: 12px; overflow: hidden; }
   td, th { padding: .6rem .8rem; border-bottom: 1px solid #e1eef5; text-align: left; vertical-align: top; }
