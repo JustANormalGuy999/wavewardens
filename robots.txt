@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://justanormalguy999.github.io/wavewardens/sitemap.xml
